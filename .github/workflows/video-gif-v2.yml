@@ -19,7 +19,7 @@ jobs:
         run: |
           mkdir -p extracted
 
-          unzip -o VideoSceneGIF-V2-project.zip -d extracted
+          unzip -o VideoLoopMP4-V5-project.zip -d extracted
 
           PROJECT=$(find extracted -name settings.gradle.kts -print -quit)
 
