@@ -18,7 +18,7 @@ jobs:
       - name: Extract Android project ZIP
         run: |
           mkdir -p extracted
-          unzip -o VideoSceneGIF-project.zip -d extracted
+          unzip -o VideoSceneGIF-project..zip -d extracted
 
           PROJECT=$(find extracted -name settings.gradle.kts -print -quit)
 
